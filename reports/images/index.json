@@ -1,0 +1,22 @@
+{
+  "image_check.md": {
+    "checks": [
+      "demo_examples.checks.test_image_content.ImageCheck.test_image_content_with_ctx_mgr",
+      "demo_examples.checks.test_image_content.ImageCheck.test_image_content_with_decorator"
+    ],
+    "description": "Image Check Analysis report.",
+    "evidence": [
+      {
+        "binary_content": true,
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "The Auditree logo image",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/images/auditree_logo.png",
+        "ttl": 86400
+      }
+    ],
+    "last_update": "2022-02-15T14:50:40.660386",
+    "ttl": 86400
+  }
+}

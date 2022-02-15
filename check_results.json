@@ -1,0 +1,175 @@
+{
+  "arboretum.auditree.checks.test_python_packages.PythonPackageCheck": {
+    "accreditations": [
+      "demo.arboretum.accred"
+    ],
+    "checks": {
+      "test_auditree_arboretum_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.8963916,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_auditree_framework_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.9057052,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_auditree_harvest_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.916585,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_python_package_deltas": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "warn",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.925845,
+        "warnings": {
+          "Python Package Deltas": [
+            "No evidence found on or prior to Feb 14, 2022"
+          ]
+        },
+        "warnings_count": 1
+      }
+    },
+    "evidence": [
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Python Package List",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/python_packages.json",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Auditree Arboretum PyPI releases",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_arboretum_releases.xml",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Auditree Framework PyPI releases",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_framework_releases.xml",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_harvest_releases.xml",
+        "ttl": 86400
+      }
+    ],
+    "reports": {
+      "reports/auditree/python_packages.md": "Execution environment Python packages report."
+    }
+  },
+  "demo_examples.checks.test_image_content.ImageCheck": {
+    "accreditations": [
+      "demo.custom.accred"
+    ],
+    "checks": {
+      "test_image_content_with_ctx_mgr": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.8615544,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_image_content_with_decorator": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.8672216,
+        "warnings": {},
+        "warnings_count": 0
+      }
+    },
+    "evidence": [
+      {
+        "binary_content": true,
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "The Auditree logo image",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/images/auditree_logo.png",
+        "ttl": 86400
+      }
+    ],
+    "reports": {
+      "reports/images/image_check.md": "Image Check Analysis report."
+    }
+  },
+  "demo_examples.checks.test_world_clock.WorldClockCheck": {
+    "accreditations": [
+      "demo.custom.accred"
+    ],
+    "checks": {
+      "test_day_of_week": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.8737662,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_day_of_year": {
+        "failures": {
+          "Even Day Violation": [
+            "46 in 2022-46 is even!!"
+          ]
+        },
+        "failures_count": 1,
+        "status": "fail",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1644936640.886257,
+        "warnings": {},
+        "warnings_count": 0
+      }
+    },
+    "evidence": [
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Coordinated Universal Time",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/time/world_clock_utc.json",
+        "ttl": 86400
+      }
+    ],
+    "reports": {
+      "reports/time/world_clock.md": "World Clock Analysis report."
+    }
+  }
+}

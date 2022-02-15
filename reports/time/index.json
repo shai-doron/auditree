@@ -1,0 +1,21 @@
+{
+  "world_clock.md": {
+    "checks": [
+      "demo_examples.checks.test_world_clock.WorldClockCheck.test_day_of_week",
+      "demo_examples.checks.test_world_clock.WorldClockCheck.test_day_of_year"
+    ],
+    "description": "World Clock Analysis report.",
+    "evidence": [
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Coordinated Universal Time",
+        "last_update": "2022-02-15T14:36:15.460068",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/time/world_clock_utc.json",
+        "ttl": 86400
+      }
+    ],
+    "last_update": "2022-02-15T14:50:40.660386",
+    "ttl": 86400
+  }
+}
