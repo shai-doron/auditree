@@ -4,17 +4,57 @@
       "demo.arboretum.accred"
     ],
     "checks": {
-      "test_auditree_arboretum_version": {},
-      "test_auditree_framework_version": {},
-      "test_auditree_harvest_version": {},
-      "test_python_package_deltas": {}
+      "test_auditree_arboretum_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645008219.099974,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_auditree_framework_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645008219.110879,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_auditree_harvest_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645008219.1220987,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_python_package_deltas": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "warn",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645008219.13305,
+        "warnings": {
+          "Python Package Deltas": [
+            "No evidence found on or prior to Feb 15, 2022"
+          ]
+        },
+        "warnings_count": 1
+      }
     },
     "evidence": [
       {
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Python Package List",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/auditree/python_packages.json",
         "ttl": 86400
       },
@@ -22,7 +62,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Auditree Arboretum PyPI releases",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/auditree/auditree_arboretum_releases.xml",
         "ttl": 86400
       },
@@ -30,7 +70,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Auditree Framework PyPI releases",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/auditree/auditree_framework_releases.xml",
         "ttl": 86400
       },
@@ -38,7 +78,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/auditree/auditree_harvest_releases.xml",
         "ttl": 86400
       }
