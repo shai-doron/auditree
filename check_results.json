@@ -4,50 +4,10 @@
       "demo.arboretum.accred"
     ],
     "checks": {
-      "test_auditree_arboretum_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "pass",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008103.8511426,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_auditree_framework_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "pass",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008103.86263,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_auditree_harvest_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "pass",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008103.8763945,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_python_package_deltas": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "warn",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008103.8871424,
-        "warnings": {
-          "Python Package Deltas": [
-            "No evidence found on or prior to Feb 15, 2022"
-          ]
-        },
-        "warnings_count": 1
-      }
+      "test_auditree_arboretum_version": {},
+      "test_auditree_framework_version": {},
+      "test_auditree_harvest_version": {},
+      "test_python_package_deltas": {}
     },
     "evidence": [
       {
