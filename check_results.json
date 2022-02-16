@@ -10,7 +10,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008075.418854,
+        "timestamp": 1645008103.8511426,
         "warnings": {},
         "warnings_count": 0
       },
@@ -20,7 +20,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008075.4308703,
+        "timestamp": 1645008103.86263,
         "warnings": {},
         "warnings_count": 0
       },
@@ -30,7 +30,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008075.4423013,
+        "timestamp": 1645008103.8763945,
         "warnings": {},
         "warnings_count": 0
       },
@@ -40,7 +40,7 @@
         "status": "warn",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008075.4562368,
+        "timestamp": 1645008103.8871424,
         "warnings": {
           "Python Package Deltas": [
             "No evidence found on or prior to Feb 15, 2022"
@@ -92,26 +92,8 @@
       "demo.custom.accred"
     ],
     "checks": {
-      "test_image_content_with_ctx_mgr": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "pass",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008075.4640777,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_image_content_with_decorator": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "pass",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008075.4700603,
-        "warnings": {},
-        "warnings_count": 0
-      }
+      "test_image_content_with_ctx_mgr": {},
+      "test_image_content_with_decorator": {}
     },
     "evidence": [
       {
@@ -133,30 +115,8 @@
       "demo.custom.accred"
     ],
     "checks": {
-      "test_day_of_week": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "pass",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008075.4770458,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_day_of_year": {
-        "failures": {
-          "Even Day Violation": [
-            "46 in 2022-46 is even!!"
-          ]
-        },
-        "failures_count": 1,
-        "status": "fail",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645008075.4896915,
-        "warnings": {},
-        "warnings_count": 0
-      }
+      "test_day_of_week": {},
+      "test_day_of_year": {}
     },
     "evidence": [
       {
