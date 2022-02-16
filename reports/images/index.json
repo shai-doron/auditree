@@ -11,12 +11,12 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "The Auditree logo image",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/images/auditree_logo.png",
         "ttl": 86400
       }
     ],
-    "last_update": "2022-02-16T10:41:15.183845",
+    "last_update": "2022-02-16T12:17:33.641953",
     "ttl": 86400
   }
 }

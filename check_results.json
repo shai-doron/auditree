@@ -10,7 +10,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008219.099974,
+        "timestamp": 1645013853.8693185,
         "warnings": {},
         "warnings_count": 0
       },
@@ -20,7 +20,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008219.110879,
+        "timestamp": 1645013853.8802228,
         "warnings": {},
         "warnings_count": 0
       },
@@ -30,7 +30,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008219.1220987,
+        "timestamp": 1645013853.8918486,
         "warnings": {},
         "warnings_count": 0
       },
@@ -40,7 +40,7 @@
         "status": "warn",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008219.13305,
+        "timestamp": 1645013853.9025958,
         "warnings": {
           "Python Package Deltas": [
             "No evidence found on or prior to Feb 15, 2022"
@@ -92,8 +92,26 @@
       "demo.custom.accred"
     ],
     "checks": {
-      "test_image_content_with_ctx_mgr": {},
-      "test_image_content_with_decorator": {}
+      "test_image_content_with_ctx_mgr": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645013853.9083884,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_image_content_with_decorator": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645013853.913191,
+        "warnings": {},
+        "warnings_count": 0
+      }
     },
     "evidence": [
       {
@@ -101,7 +119,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "The Auditree logo image",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/images/auditree_logo.png",
         "ttl": 86400
       }
@@ -115,15 +133,37 @@
       "demo.custom.accred"
     ],
     "checks": {
-      "test_day_of_week": {},
-      "test_day_of_year": {}
+      "test_day_of_week": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645013853.8467276,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_day_of_year": {
+        "failures": {
+          "Even Day Violation": [
+            "46 in 2022-46 is even!!"
+          ]
+        },
+        "failures_count": 1,
+        "status": "fail",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645013853.8574858,
+        "warnings": {},
+        "warnings_count": 0
+      }
     },
     "evidence": [
       {
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Coordinated Universal Time",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": null,
+        "locker_url": "https://github.com/shai-doron/auditree",
         "path": "raw/time/world_clock_utc.json",
         "ttl": 86400
       }
