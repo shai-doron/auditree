@@ -10,12 +10,12 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Coordinated Universal Time",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/time/world_clock_utc.json",
         "ttl": 86400
       }
     ],
-    "last_update": "2022-02-16T10:40:58.288183",
+    "last_update": "2022-02-16T10:41:15.183845",
     "ttl": 86400
   }
 }

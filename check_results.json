@@ -10,7 +10,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.511044,
+        "timestamp": 1645008075.418854,
         "warnings": {},
         "warnings_count": 0
       },
@@ -20,7 +20,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.522756,
+        "timestamp": 1645008075.4308703,
         "warnings": {},
         "warnings_count": 0
       },
@@ -30,7 +30,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.5330994,
+        "timestamp": 1645008075.4423013,
         "warnings": {},
         "warnings_count": 0
       },
@@ -40,7 +40,7 @@
         "status": "warn",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.5436628,
+        "timestamp": 1645008075.4562368,
         "warnings": {
           "Python Package Deltas": [
             "No evidence found on or prior to Feb 15, 2022"
@@ -54,7 +54,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Python Package List",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/auditree/python_packages.json",
         "ttl": 86400
       },
@@ -62,7 +62,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Auditree Arboretum PyPI releases",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/auditree/auditree_arboretum_releases.xml",
         "ttl": 86400
       },
@@ -70,7 +70,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Auditree Framework PyPI releases",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/auditree/auditree_framework_releases.xml",
         "ttl": 86400
       },
@@ -78,7 +78,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/auditree/auditree_harvest_releases.xml",
         "ttl": 86400
       }
@@ -98,7 +98,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.5490024,
+        "timestamp": 1645008075.4640777,
         "warnings": {},
         "warnings_count": 0
       },
@@ -108,7 +108,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.5565412,
+        "timestamp": 1645008075.4700603,
         "warnings": {},
         "warnings_count": 0
       }
@@ -119,7 +119,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "The Auditree logo image",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/images/auditree_logo.png",
         "ttl": 86400
       }
@@ -139,7 +139,7 @@
         "status": "pass",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.5619636,
+        "timestamp": 1645008075.4770458,
         "warnings": {},
         "warnings_count": 0
       },
@@ -153,7 +153,7 @@
         "status": "fail",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645008058.5735798,
+        "timestamp": 1645008075.4896915,
         "warnings": {},
         "warnings_count": 0
       }
@@ -163,7 +163,7 @@
         "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
         "description": "Coordinated Universal Time",
         "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
+        "locker_url": null,
         "path": "raw/time/world_clock_utc.json",
         "ttl": 86400
       }
