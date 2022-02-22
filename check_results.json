@@ -7,152 +7,55 @@
       "test_auditree_arboretum_version": {
         "failures": {},
         "failures_count": 0,
-        "status": "pass",
+        "status": "error",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645343750.0082629,
+        "timestamp": 1645512640.909729,
         "warnings": {},
         "warnings_count": 0
       },
       "test_auditree_central_version": {
         "failures": {},
         "failures_count": 0,
-        "status": "warn",
+        "status": "error",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645343750.0264091,
-        "warnings": {
-          "Latest Version Violation": [
-            "auditree-central latest version 0.116.3, version used 0.116.2"
-          ]
-        },
-        "warnings_count": 1
+        "timestamp": 1645512640.9157581,
+        "warnings": {},
+        "warnings_count": 0
       },
       "test_auditree_framework_version": {
         "failures": {},
         "failures_count": 0,
-        "status": "pass",
+        "status": "error",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645343750.0397162,
+        "timestamp": 1645512640.9207158,
         "warnings": {},
         "warnings_count": 0
       },
       "test_auditree_harvest_version": {
         "failures": {},
         "failures_count": 0,
-        "status": "pass",
+        "status": "error",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645343750.0528433,
+        "timestamp": 1645512640.9251943,
         "warnings": {},
         "warnings_count": 0
       },
       "test_python_package_deltas": {
         "failures": {},
         "failures_count": 0,
-        "status": "warn",
+        "status": "error",
         "successes": {},
         "successes_count": 0,
-        "timestamp": 1645343750.0891852,
-        "warnings": {
-          "New Packages": [
-            "Deprecated version 1.2.13",
-            "PTable version 0.9.2",
-            "PyGithub version 1.55",
-            "PyNaCl version 1.5.0",
-            "SoftLayer version 5.9.9",
-            "TatSu version 5.6.1",
-            "auditree-central version 0.116.2",
-            "cachetools version 5.0.0",
-            "click version 8.0.3",
-            "cloudant-common version 0.15.0",
-            "future version 0.18.2",
-            "google-auth version 2.6.0",
-            "ibm-cos-sdk version 2.11.0",
-            "ibm-cos-sdk-core version 2.11.0",
-            "ibm-cos-sdk-s3transfer version 2.11.0",
-            "ibmcloud-tools version 2.52.2",
-            "jmespath version 0.10.0",
-            "kubernetes version 17.17.0",
-            "oauthlib version 3.2.0",
-            "prompt-toolkit version 3.0.28",
-            "pyaml version 20.4.0",
-            "pyasn1 version 0.4.8",
-            "pyasn1-modules version 0.2.8",
-            "requests-oauthlib version 1.3.1",
-            "rsa version 4.8",
-            "sdcclient version 0.16.3",
-            "sphinx-rtd-theme version 0.5.2",
-            "utilitarian version 0.57.1",
-            "wcwidth version 0.2.5",
-            "wrapt version 1.13.3"
-          ],
-          "Package Version Changes": [
-            "PyYAML previous version 6.0, current version 5.3.1",
-            "charset-normalizer previous version 2.0.11, current version 2.0.12",
-            "docutils previous version 0.17.1, current version 0.15.2",
-            "filelock previous version 3.4.2, current version 3.5.0",
-            "identify previous version 2.4.8, current version 2.4.10",
-            "importlib-metadata previous version 4.10.1, current version 4.11.1",
-            "platformdirs previous version 2.4.1, current version 2.5.0",
-            "pytest previous version 7.0.0, current version 7.0.1",
-            "setuptools previous version 60.8.1, current version 60.9.2"
-          ]
-        },
-        "warnings_count": 39
+        "timestamp": 1645512640.933069,
+        "warnings": {},
+        "warnings_count": 0
       }
     },
-    "evidence": [
-      {
-        "commit_sha": "8ea1e3f68756202320f5358751b840d79f0d708a",
-        "description": "Python Package List",
-        "last_update": "2022-02-20T07:41:47.774444",
-        "locker_url": "https://github.com/shai-doron/auditree",
-        "path": "raw/auditree/python_packages.json",
-        "ttl": 86400
-      },
-      {
-        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
-        "description": "Auditree Arboretum PyPI releases",
-        "last_update": "2022-02-20T07:41:47.774444",
-        "locker_url": "https://github.com/shai-doron/auditree",
-        "path": "raw/auditree/auditree_arboretum_releases.xml",
-        "ttl": 86400
-      },
-      {
-        "commit_sha": "8ea1e3f68756202320f5358751b840d79f0d708a",
-        "description": "Auditree Central list of packages by version",
-        "last_update": "2022-02-20T07:41:47.774444",
-        "locker_url": "https://github.com/shai-doron/auditree",
-        "path": "raw/auditree/auditree_central_versions.json",
-        "ttl": 86400
-      },
-      {
-        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
-        "description": "Auditree Framework PyPI releases",
-        "last_update": "2022-02-20T07:41:47.774444",
-        "locker_url": "https://github.com/shai-doron/auditree",
-        "path": "raw/auditree/auditree_framework_releases.xml",
-        "ttl": 86400
-      },
-      {
-        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
-        "description": "",
-        "last_update": "2022-02-20T07:41:47.774444",
-        "locker_url": "https://github.com/shai-doron/auditree",
-        "path": "raw/auditree/auditree_harvest_releases.xml",
-        "ttl": 86400
-      },
-      {
-        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
-        "description": "Python Package List",
-        "last_update": "2022-02-15T14:36:15.460068",
-        "locker_url": "https://github.com/shai-doron/auditree",
-        "path": "raw/auditree/python_packages.json",
-        "ttl": 86400
-      }
-    ],
+    "evidence": [],
     "reports": {
       "reports/auditree/python_packages.md": "Execution environment Python packages report."
     }
