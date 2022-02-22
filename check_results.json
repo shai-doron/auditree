@@ -4,13 +4,140 @@
       "demo.custom.accred"
     ],
     "checks": {
-      "test_auditree_arboretum_version": {},
-      "test_auditree_central_version": {},
-      "test_auditree_framework_version": {},
-      "test_auditree_harvest_version": {},
-      "test_python_package_deltas": {}
+      "test_auditree_arboretum_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645513786.7300065,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_auditree_central_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "warn",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645513786.8075242,
+        "warnings": {
+          "Latest Version Violation": [
+            "auditree-central latest version 0.116.3, version used 0.116.2"
+          ]
+        },
+        "warnings_count": 1
+      },
+      "test_auditree_framework_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645513786.8254654,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_auditree_harvest_version": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "pass",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645513786.8442419,
+        "warnings": {},
+        "warnings_count": 0
+      },
+      "test_python_package_deltas": {
+        "failures": {},
+        "failures_count": 0,
+        "status": "warn",
+        "successes": {},
+        "successes_count": 0,
+        "timestamp": 1645513786.8985343,
+        "warnings": {
+          "New Packages": [
+            "asttokens version 2.0.5",
+            "backcall version 0.2.0",
+            "black version 22.1.0",
+            "debugpy version 1.5.1",
+            "decorator version 5.1.1",
+            "entrypoints version 0.4",
+            "executing version 0.8.2",
+            "ipykernel version 6.9.1",
+            "ipython version 8.0.1",
+            "jedi version 0.18.1",
+            "jupyter-client version 7.1.2",
+            "jupyter-core version 4.9.2",
+            "matplotlib-inline version 0.1.3",
+            "mypy-extensions version 0.4.3",
+            "nest-asyncio version 1.5.4",
+            "parso version 0.8.3",
+            "pathspec version 0.9.0",
+            "pexpect version 4.8.0",
+            "pickleshare version 0.7.5",
+            "ptyprocess version 0.7.0",
+            "pure-eval version 0.2.2",
+            "pyzmq version 22.3.0",
+            "stack-data version 0.2.0",
+            "tornado version 6.1",
+            "traitlets version 5.1.1",
+            "typing-extensions version 4.1.1"
+          ]
+        },
+        "warnings_count": 26
+      }
     },
-    "evidence": [],
+    "evidence": [
+      {
+        "commit_sha": "f861e24bcf25454507e85197a0bdddd787e393d0",
+        "description": "Python Package List",
+        "last_update": "2022-02-22T07:03:43.640215",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/python_packages.json",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Auditree Arboretum PyPI releases",
+        "last_update": "2022-02-22T07:03:43.640215",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_arboretum_releases.xml",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "8ea1e3f68756202320f5358751b840d79f0d708a",
+        "description": "Auditree Central list of packages by version",
+        "last_update": "2022-02-22T07:09:01.421757",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_central_versions.json",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "Auditree Framework PyPI releases",
+        "last_update": "2022-02-22T07:03:43.640215",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_framework_releases.xml",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "c559a2f0e7568973c57a9f18da25f8ad97e9caca",
+        "description": "",
+        "last_update": "2022-02-22T07:03:43.640215",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/auditree_harvest_releases.xml",
+        "ttl": 86400
+      },
+      {
+        "commit_sha": "8ea1e3f68756202320f5358751b840d79f0d708a",
+        "description": "Python Package List",
+        "last_update": "2022-02-20T07:41:47.774444",
+        "locker_url": "https://github.com/shai-doron/auditree",
+        "path": "raw/auditree/python_packages.json",
+        "ttl": 86400
+      }
+    ],
     "reports": {
       "reports/auditree/python_packages.md": "Execution environment Python packages report."
     }
