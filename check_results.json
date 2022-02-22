@@ -4,56 +4,11 @@
       "demo.custom.accred"
     ],
     "checks": {
-      "test_auditree_arboretum_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "error",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645512640.909729,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_auditree_central_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "error",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645512640.9157581,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_auditree_framework_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "error",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645512640.9207158,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_auditree_harvest_version": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "error",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645512640.9251943,
-        "warnings": {},
-        "warnings_count": 0
-      },
-      "test_python_package_deltas": {
-        "failures": {},
-        "failures_count": 0,
-        "status": "error",
-        "successes": {},
-        "successes_count": 0,
-        "timestamp": 1645512640.933069,
-        "warnings": {},
-        "warnings_count": 0
-      }
+      "test_auditree_arboretum_version": {},
+      "test_auditree_central_version": {},
+      "test_auditree_framework_version": {},
+      "test_auditree_harvest_version": {},
+      "test_python_package_deltas": {}
     },
     "evidence": [],
     "reports": {
