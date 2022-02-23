@@ -1,7 +1,7 @@
 {
   "boundary_protection.json": {
-    "description": "",
-    "last_update": "2022-02-23T09:05:23.993422",
-    "ttl": 0
+    "description": "Boundary protection evidence",
+    "last_update": "2022-02-23T13:57:38.315358",
+    "ttl": 10
   }
 }
