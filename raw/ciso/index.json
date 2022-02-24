@@ -2,6 +2,6 @@
   "boundary_protection.json": {
     "description": "",
     "last_update": "2022-02-24T16:01:54.801291",
-    "ttl": 86400
+    "ttl": 10
   }
 }
