@@ -1226,7 +1226,7 @@
                                 "crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/24f773d14d1711db26a029c2f4d185e4:9ca6c003-a96e-4aef-bdad-7a5e55c40d4e:bucket:cloud-object-storage-9l-cos-standard-2rt",
                                 "firewall": {},
                                 "key_attributes": {
-                                  "Date": "Wed, 23 Feb 2022 15:19:26 GMT",
+                                  "Date": "Sun, 27 Feb 2022 09:54:16 GMT",
                                   "ibm-sse-kp-enabled": "false"
                                 },
                                 "metrics_monitoring": {},
@@ -1240,7 +1240,7 @@
                               "activity_tracking": {},
                               "firewall": {},
                               "key_attributes": {
-                                "Date": "Wed, 23 Feb 2022 15:19:26 GMT",
+                                "Date": "Sun, 27 Feb 2022 09:54:16 GMT",
                                 "ibm-sse-kp-enabled": "false"
                               },
                               "metrics_monitoring": {}
@@ -1286,7 +1286,7 @@
                                 "crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/24f773d14d1711db26a029c2f4d185e4:9ca6c003-a96e-4aef-bdad-7a5e55c40d4e:bucket:dshai-my-bucket123",
                                 "firewall": {},
                                 "key_attributes": {
-                                  "Date": "Wed, 23 Feb 2022 15:19:26 GMT",
+                                  "Date": "Sun, 27 Feb 2022 09:54:21 GMT",
                                   "ibm-sse-kp-enabled": "false"
                                 },
                                 "metrics_monitoring": {},
@@ -1300,7 +1300,7 @@
                               "activity_tracking": {},
                               "firewall": {},
                               "key_attributes": {
-                                "Date": "Wed, 23 Feb 2022 15:19:26 GMT",
+                                "Date": "Sun, 27 Feb 2022 09:54:21 GMT",
                                 "ibm-sse-kp-enabled": "false"
                               },
                               "metrics_monitoring": {}
