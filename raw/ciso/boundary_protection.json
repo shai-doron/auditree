@@ -1226,7 +1226,7 @@
                                 "crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/24f773d14d1711db26a029c2f4d185e4:9ca6c003-a96e-4aef-bdad-7a5e55c40d4e:bucket:cloud-object-storage-9l-cos-standard-2rt",
                                 "firewall": {},
                                 "key_attributes": {
-                                  "Date": "Sun, 27 Feb 2022 12:42:44 GMT",
+                                  "Date": "Tue, 01 Mar 2022 16:53:50 GMT",
                                   "ibm-sse-kp-enabled": "false"
                                 },
                                 "metrics_monitoring": {},
@@ -1234,13 +1234,18 @@
                                 "object_count": 0,
                                 "service_instance_crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/24f773d14d1711db26a029c2f4d185e4:9ca6c003-a96e-4aef-bdad-7a5e55c40d4e::",
                                 "service_instance_id": "9ca6c003-a96e-4aef-bdad-7a5e55c40d4e",
+                                "tags": [
+                                  {
+                                    "name": "private"
+                                  }
+                                ],
                                 "time_created": "2022-02-20T10:05:29.588Z",
                                 "time_updated": "2022-02-20T10:05:29.588Z"
                               },
                               "activity_tracking": {},
                               "firewall": {},
                               "key_attributes": {
-                                "Date": "Sun, 27 Feb 2022 12:42:44 GMT",
+                                "Date": "Tue, 01 Mar 2022 16:53:50 GMT",
                                 "ibm-sse-kp-enabled": "false"
                               },
                               "metrics_monitoring": {}
@@ -1286,7 +1291,7 @@
                                 "crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/24f773d14d1711db26a029c2f4d185e4:9ca6c003-a96e-4aef-bdad-7a5e55c40d4e:bucket:dshai-my-bucket123",
                                 "firewall": {},
                                 "key_attributes": {
-                                  "Date": "Sun, 27 Feb 2022 12:42:44 GMT",
+                                  "Date": "Tue, 01 Mar 2022 16:53:50 GMT",
                                   "ibm-sse-kp-enabled": "false"
                                 },
                                 "metrics_monitoring": {},
@@ -1294,13 +1299,18 @@
                                 "object_count": 0,
                                 "service_instance_crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/24f773d14d1711db26a029c2f4d185e4:9ca6c003-a96e-4aef-bdad-7a5e55c40d4e::",
                                 "service_instance_id": "9ca6c003-a96e-4aef-bdad-7a5e55c40d4e",
+                                "tags": [
+                                  {
+                                    "name": "private"
+                                  }
+                                ],
                                 "time_created": "2022-02-20T12:09:24.801Z",
                                 "time_updated": "2022-02-20T12:09:24.801Z"
                               },
                               "activity_tracking": {},
                               "firewall": {},
                               "key_attributes": {
-                                "Date": "Sun, 27 Feb 2022 12:42:44 GMT",
+                                "Date": "Tue, 01 Mar 2022 16:53:50 GMT",
                                 "ibm-sse-kp-enabled": "false"
                               },
                               "metrics_monitoring": {}
@@ -1308,7 +1318,7 @@
                           },
                           "init_scope": null,
                           "list_members": [],
-                          "new": true,
+                          "new": false,
                           "object": "cos_bucket",
                           "overlay": "",
                           "properties": {
@@ -1628,16 +1638,16 @@
           },
           "client_id": "default",
           "email": "dshai@il.ibm.com",
-          "exp": 1645362887,
+          "exp": 1646151652,
           "family_name": "DORON",
           "given_name": "SHAI",
           "grant_type": "urn:ibm:params:oauth:grant-type:apikey",
           "iam_id": "IBMid-3100020G8X",
-          "iat": 1645359287,
+          "iat": 1646148052,
           "id": "IBMid-3100020G8X",
           "identifier": "3100020G8X",
           "iss": "https://iam.cloud.ibm.com/identity",
-          "jti": "a737c803-6759-4618-a6d0-8acae4ee6a4b",
+          "jti": "5c3175e5-8115-4438-bc74-cc91ef7752a4",
           "name": "SHAI DORON",
           "realmid": "IBMid",
           "scope": "ibm openid",
